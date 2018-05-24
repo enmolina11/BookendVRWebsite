@@ -1,0 +1,63 @@
+body
+{
+	/*background: url("Images/Bookend_bg.png") no-repeat fixed center;*/
+	background-color: black;
+    background-size: 1000px;
+
+	margin:0;
+	font-family: 'Amatic SC', cursive;
+	font-family: 'Coming Soon', serif;
+}
+
+.topnav
+{
+
+}
+
+.topnav a
+{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.main_title_ani
+{
+    padding: 5%;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+.column
+{
+    float: left;
+	text-align: center;
+	width: 20%;
+}
+
+/* Clear floats after the columns */
+.row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a
+{
+  color: #CCC;
+  text-decoration: none;
+  font-size: 35px;
+  -webkit-transition: color 0.4s ease;
+  -webkit-transition: font-size 0.4s ease;
+}
+
+a:hover
+{
+	color: white;
+	font-size: 50px;
+}

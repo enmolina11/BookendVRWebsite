@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Bookend</title>
+		<script src="jquery-3.3.1.min.js" type="text/javascript"></script>
+		<link href="main.css" rel="stylesheet" type="text/css" />w
+		<link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet" />
+	</head>
+
+	<body>
+
+		<div class="topnav">
+			<div class="main_title_ani">
+				<object data="animation_assets/TitleAnimation/Assets/TitleAnimation.html"
+					data-dw-widget="Edge"
+					height="200"
+					id="EdgeID"
+					type="text/html"
+					width="200">
+				</object>
+				<script type="text/javascript">
+  					var element = document.getElementById("EdgeID");
+  					console.log(element.height);
+  					console.log($(window).height());   // returns height of browser viewport
+					console.log($(document).height()); // returns height of HTML document (same as pageHeight in screenshot)
+					console.log($(window).width());    // returns width of browser viewport
+					console.log($(document).width());  // returns width of HTML document (same as pageWidth in screenshot)
+				</script>
+			</div>
+  			<a>Home</a>
+  			<a>News</a>
+  			<a>Contact</a>
+  			<a>About</a>
+		</div>
+
+
+
+		<div class="row">
+			<div class="column tab" style="padding-left: 18%;">
+				<a href="about">About</a>
+			</div>
+
+			<div class="column tab">
+				<a href="Team">Team</a>
+			</div>
+
+			<div class="column tab">
+				<a href="Social Media">Contact</a>
+			</div>
+
+			<p></p>
+		</div>
+	</body>
+
+</html>
