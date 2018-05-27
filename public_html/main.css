@@ -1,6 +1,9 @@
-body
+body, html
 {
 	/*background: url("Images/Bookend_bg.png") no-repeat fixed center;*/
+	height: 100%;
+    margin: 0;
+
 	background-color: black;
     background-size: 1000px;
 
@@ -9,30 +12,73 @@ body
 	font-family: 'Coming Soon', serif;
 }
 
-.topnav
+div.top_bar
 {
-
+    padding: 25px
 }
 
-.topnav a
+div.top_bar_home
 {
     float: left;
+}
+
+img.title_home
+{
+    max-width: 20vw; /*110px;*/
+    max-height: 13.9vw; /*76.5px;*/
+}
+
+.top_bar_links a
+{
+    float: right;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 3vw;
 }
 
-.main_title_ani
+.top_bar_links a:hover
 {
-    padding: 5%;
-    max-width: 100%;
-    height: auto;
-    width: auto\9;
+	color: white;
+	font-size: 4vw;
+	align: center;
 }
 
-.column
+.title_anim
+{
+    margin: 5px;
+}
+
+#EdgeID
+{
+    width: 50vw; /*110px;*/
+    height: 34.7vw; /*76.5px;*/
+    padding-left: 2vw;
+}
+
+p.text
+{
+    color: white;
+    text-align: center;
+    font-size: 10wv;
+    letter-spacing: 2px;
+    padding: 0 10vw;
+}
+
+iframe.video
+{
+    border: none;
+    width: 50vw; /*110px;*/
+    height: 34.7vw; /*76.5px;*/
+}
+
+div.middle_content
+{
+    padding: 100px;
+}
+
+div.column
 {
     float: left;
 	text-align: center;
@@ -40,7 +86,7 @@ body
 }
 
 /* Clear floats after the columns */
-.row:after
+div.row:after
 {
     content: "";
     display: table;
