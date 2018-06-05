@@ -9,13 +9,15 @@
 
 }
 .bg_img_1 {
-  background-image: url("Images/Poster3.png");
+  background-image: url("Images/Poster4.png");
   min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("Images/Poster2.png");
-  min-height: 400px;
+  /*background: black;*/
+  background-image: url("Images/OldPoster.png");
+  background-size: contain;
+  min-height: 100%;
 }
 
 .bgimg-3 {

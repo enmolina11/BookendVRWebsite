@@ -1,85 +1,105 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>File Not Found</title>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" >
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style type="text/css">
-body {
-  background-color: #eee;
-}
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+		<link rel="manifest" href="favicon/site.webmanifest">
+		<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#000000">
+		<meta name="theme-color" content="#ffffff">
+        <title>Bookend - 404</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet" />
+        <style type="text/css">
+            body {
+              background-color: #888888;
+            }
 
-body, h1, p {
-  font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: normal;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
+            body, h1, p {
+              font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+              font-weight: normal;
+              margin: 0;
+              padding: 0;
+              text-align: center;
+            }
 
-.container {
-  margin-left:  auto;
-  margin-right:  auto;
-  margin-top: 177px;
-  max-width: 1170px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
+            .container {
+              margin-left:  auto;
+              margin-right:  auto;
+              margin-top: 177px;
+              max-width: 1170px;
+              padding-right: 15px;
+              padding-left: 15px;
+            }
 
-.row:before, .row:after {
-  display: table;
-  content: " ";
-}
+            .row:before, .row:after {
+              display: table;
+              content: " ";
+            }
 
-.col-md-6 {
-  width: 50%;
-}
+            .col-md-6 {
+              width: 50%;
+            }
 
-.col-md-push-3 {
-  margin-left: 25%;
-}
+            .col-md-push-3 {
+              margin-left: 25%;
+            }
 
-h1 {
-  font-size: 48px;
-  font-weight: 300;
-  margin: 0 0 20px 0;
-}
+            h1 {
+              font-family: 'Coming Soon', serif;
+              font-size: 48px;
+              font-weight: 300;
+              margin: 0 0 20px 0;
+            }
 
-.lead {
-  font-size: 21px;
-  font-weight: 200;
-  margin-bottom: 20px;
-}
+            .lead {
+              font-size: 21px;
+              font-weight: 200;
+              margin-bottom: 20px;
+            }
 
-p {
-  margin: 0 0 10px;
-}
+            p {
+              margin: 0 0 10px;
+            }
 
-a {
-  color: #3282e6;
-  text-decoration: none;
-}
-</style>
-</head>
+            a {
+              color: #3282e6;
+              text-decoration: none;
+            }
+        </style>
+    </head>
 
-<body>
-<div class="container text-center" id="error">
-  <svg height="100" width="100">
-    <polygon points="50,25 17,80 82,80" stroke-linejoin="round" style="fill:none;stroke:#ff8a00;stroke-width:8" />
-    <text x="42" y="74" fill="#ff8a00" font-family="sans-serif" font-weight="900" font-size="42px">!</text>
-  </svg>
- <div class="row">
-    <div class="col-md-12">
-      <div class="main-icon text-warning"><span class="uxicon uxicon-alert"></span></div>
-        <h1>File not found (404 error)</h1>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-6 col-md-push-3">
-      <p class="lead">If you think what you're looking for should be here, please contact the site owner.</p>
-    </div>
-  </div>
-</div>
+    <body>
+        <div class="top_bar" style="padding: 25px">
+			<div class="top_bar_home" style="float: left">
+				<a href="home">
+					<img class="title_home" src="Images/TitleAnim.png" width="110" height="76.5" alt="Home"/>
+				</a>
+			</div>
+		</div>
+        <div class="container text-center" id="error">
+            <div height="100" width="100">
+                <!--<polygon points="50,25 17,80 82,80" stroke-linejoin="round" style="fill:none;stroke:#ff8a00;stroke-width:8" />-->
+                <img class="title_home" src="Images/Abigail_404.png" width="150" height="100" alt="404" style="margin:auto"/>
+                <text x="42" y="74" fill="#ff8a00" font-family="Laila" font-weight="900" font-size="42px"></text>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-icon text-warning"><span class="uxicon uxicon-alert"></span></div>
+                        <h1>Bookend File not found! <br />(404 error)</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-push-3">
+                    <p class="lead">If you think what you're looking for should be here, please contact BookendVR@gmail.com.</p>
+                </div>
+            </div>
+        </div>
+    </body>
 
-</body>
+
 </html>
